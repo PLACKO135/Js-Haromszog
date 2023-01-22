@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Derékszögű háromszög oldalhosszal</legend>
+            <label>egyik befogó:</label> <input type="number" name="aoldal"  id="aoldal"><br>
+            <label>másik befogó:</label> <input type="number" name="boldal"  id="boldal"><br>
+            <label>átfogó:</label> <input type="number" name="coldal"  id="coldal"><hr>
+
+            <input type="button" onclick="Szerkesztheto()" value="Megszerkeszthető?">
+            <input type="button" onclick="Random()" value="Véletlen oldahosszak 10..100-ból">
+            <input type="button" onclick="Atfogo()" value="Átfogó kiszámítása">
+        </fieldset>
+    </form>
+</body>
+
+</html>
